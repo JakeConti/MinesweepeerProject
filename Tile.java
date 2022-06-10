@@ -89,6 +89,8 @@ public class Tile
                     symbol = "" + minesNear;
                 }
             }
+        } else if(isFlagged()){
+            symbol = "#";
         } else {
             symbol = "?";
         }
